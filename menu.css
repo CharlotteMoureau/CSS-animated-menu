@@ -1,3 +1,7 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .sidebar {
     display: grid;
     grid-template-columns: 1fr;
@@ -12,6 +16,7 @@ img {
     background: chocolate;
     float: left;
     padding: 20px 20px 20px 20px;
+    transition-duration: 0.5s;
 }
 
 p {
@@ -25,16 +30,17 @@ p {
     padding-top: 20px;
     pointer-events: none;
     color: cornsilk;
+    transition-duration: 01s; 
 }
 
 .div:hover p {
     background: chocolate;
     transform: translate(90px);
     opacity: 1;
-    transition: 1s; 
+    
 }
 
 .div:hover img {
     background: rgb(110, 56, 17);
-    transition: 2s;
+    
 }
