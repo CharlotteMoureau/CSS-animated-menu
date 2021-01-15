@@ -1,0 +1,40 @@
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    width: 10px;
+}
+    
+ 
+
+img {
+    height: 50px;
+    background: chocolate;
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+
+p {
+    width: 120px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    opacity: 0;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 20px;
+    pointer-events: none;
+    color: cornsilk;
+}
+
+.div:hover p {
+    background: chocolate;
+    transform: translate(90px);
+    opacity: 1;
+    transition: 1s; 
+}
+
+.div:hover img {
+    background: rgb(110, 56, 17);
+    transition: 2s;
+}
