@@ -1,12 +1,18 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+main {
+    background: gray;
+    height: auto;
+    width: 500px;
+}
 
 .sidebar {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
-    width: 10px;
+    width: 50px;
+    padding: 20px;
 }
     
  
@@ -16,13 +22,12 @@ img {
     background: chocolate;
     float: left;
     padding: 20px 20px 20px 20px;
-    transition-duration: 0.5s;
+    transition-duration: 2s;
 }
 
 p {
     width: 120px;
     height: 70px;
-    display: flex;
     position: absolute;
     opacity: 0;
     margin: auto;
@@ -30,7 +35,7 @@ p {
     padding-top: 20px;
     pointer-events: none;
     color: cornsilk;
-    transition-duration: 01s; 
+    transition-duration: 0.5s; 
 }
 
 .div:hover p {
