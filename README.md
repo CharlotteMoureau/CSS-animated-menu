@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Animated CSS menu
 
 This was a solo project carried out on the 15th of January 2021 as part of the BeCode Liège's Junior Web Developer programm. We were tasked to make an animated menu using CSS (no JavaScript allowed).
@@ -21,13 +20,3 @@ I used icons made by Icongeek26 on https://www.flaticon.com/. Get them [here](ht
 I had a bit of trouble arranging the paragraph above the image so I decided to place the "navigation bar" in a grid and put the text in ``` position: absolute; ```. Then it was just a bit of fiddling with the width of the elements and the padding. I had fun playing with the transitions and animations. I thought the project was hard at first, but it has challenged me to think outside the box (or the grid in this case :stuck_out_tongue_winking_eye:) and I think I did a decent job.
 
 ### [See my attempt here:](https://charlottemoureau.github.io/CSS-animated-menu/)
-=======
-# CSS animated menu
-
-Readme under construction
-
-https://charlottemoureau.github.io/CSS-animated-menu/
-
-<div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from
-        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a># CSS-animated-menu
->>>>>>> 2c8105ae2857a51c6c7f3c11b5eea14d0dde3602
