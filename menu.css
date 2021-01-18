@@ -10,13 +10,11 @@ main {
 nav {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     width: 50px;
     padding: 20px;
 }
     
- 
-
 img {
     height: 50px;
     background: chocolate;
@@ -38,14 +36,12 @@ p {
     transition-duration: 0.5s; 
 }
 
-.div:hover p {
+div:hover p {
     background: chocolate;
     transform: translate(90px);
     opacity: 1;
-    
 }
 
-.div:hover img {
-    background: rgb(110, 56, 17);
-    
+div:hover img {
+    background: rgb(110, 56, 17);  
 }
